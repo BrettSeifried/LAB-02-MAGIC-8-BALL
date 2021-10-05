@@ -29,6 +29,22 @@ Math.floor(Math.random()*colors.length)
 
 colors[Math.floor(Math.random()*colors.length)]
 
+###  Magic 8 Ball plan
+## What HTML Elements do I need
+* Text Area for the question -- static
+* Button -- static
+* Paragraph to hold the answer -- dynamic
+
+## What state do I need?
+* answer 
+* RandomIndex
+
+## What events am I lisetning for? What happens when those events are fired?
+* Button click
+    * Generate a random index
+    * Get the value of the answer
+    * Display the answer on the page
+
 ## Making a plan
 
 (bolded steps are mandatory, unbolded are for more advanced projects)

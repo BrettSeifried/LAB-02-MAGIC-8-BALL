@@ -4,7 +4,7 @@ const button1 = document.getElementById('submit1');
 const button2 = document.getElementById('submit2');
 const button3 = document.getElementById('submit3');
 const exercise = document.getElementById('answer');
-const boxs = document.getElementById('box');
+// const boxs = document.getElementById('box');
 // initialize global state
 
 // set event listeners 
@@ -31,48 +31,46 @@ const getRandomNumber = (max) =>{
 };
 
 button.addEventListener('click', () => {
-  const randomIndex = getRandomNumber(upper.length);
-  const answer = document.getElementById('answer');
-  answer.textContent = upper[randomIndex];
+    const randomIndex = getRandomNumber(upper.length);
+    const answer = document.getElementById('answer');
+    answer.textContent = upper[randomIndex];
 
-  const randomRep = getRandomNumber(repitions.length);
-  const reps = document.getElementById('reps');
-  reps.textContent = repitions[randomRep];
-
+    const randomRep = getRandomNumber(repitions.length);
+    const reps = document.getElementById('reps');
+    reps.textContent = repitions[randomRep];
+});
 button1.addEventListener('click', () => {
-  const randomIndex1 = getRandomNumber(lower.length);
-  const answer1 = document.getElementById('answer1');
-  answer1.textContent = lower[randomIndex1];
+    const randomIndex1 = getRandomNumber(lower.length);
+    const answer1 = document.getElementById('answer1');
+    answer1.textContent = lower[randomIndex1];
 
-  const randomRep1 = getRandomNumber(repitions.length);
-  const reps1 = document.getElementById('reps1');
-  reps1.textContent = repitions[randomRep1];
+    const randomRep1 = getRandomNumber(repitions.length);
+    const reps1 = document.getElementById('reps1');
+    reps1.textContent = repitions[randomRep1];
 });
 
 button2.addEventListener('click', () => {
-  const randomIndex2 = getRandomNumber(cardio.length);
-  const answer2 = document.getElementById('answer2');
-  answer2.textContent = cardio[randomIndex2];
+    const randomIndex2 = getRandomNumber(cardio.length);
+    const answer2 = document.getElementById('answer2');
+    answer2.textContent = cardio[randomIndex2];
 
-  const randomRep2 = getRandomNumber(repitions.length);
-  const reps2 = document.getElementById('reps2');
-  reps2.textContent = repitions[randomRep2];
+    const randomRep2 = getRandomNumber(repitions.length);
+    const reps2 = document.getElementById('reps2');
+    reps2.textContent = repitions[randomRep2];
 
 });
 
 button3.addEventListener('click', () => {
-  const randomIndex3 = getRandomNumber(core.length);
-  const answer3 = document.getElementById('answer3');
-  answer3.textContent = core[randomIndex3];
+    const randomIndex3 = getRandomNumber(core.length);
+    const answer3 = document.getElementById('answer3');
+    answer3.textContent = core[randomIndex3];
 
-  const randomRep3 = getRandomNumber(repitions.length);
-  const reps3 = document.getElementById('reps3');
-  reps3.textContent = repitions[randomRep3];
+    const randomRep3 = getRandomNumber(repitions.length);
+    const reps3 = document.getElementById('reps3');
+    reps3.textContent = repitions[randomRep3];
 
 }); 
-  exercise.style.display = 'block';
-
-});
+exercise.style.display = 'block';
 
 // function timerDisplay (){
 //   let sec = result1

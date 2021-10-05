@@ -33,13 +33,13 @@ export const core = [
     'Flutter kicks',
     'Supine Bicycle',
     'Sit Ups',
-]
+];
 
 export const repitions = [
     '5 Reps / 10 Seconds',
     '10 reps / 20 Seconds',
     '15 reps / 30 seconds',
-]
+];
 
 export function multi(num){
     return num * 60;

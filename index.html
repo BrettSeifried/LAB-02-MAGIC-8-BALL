@@ -11,17 +11,32 @@
     <link rel="stylesheet" href="./styles/home.css">
     <title>Document</title>
 </head>
-
 <body>
+<header>    
     <h1 id="my-header">Exercise during breaks!</h1>
-    <h2>How many minuets do you have?</h2>
-    <input type="number" id="time" placeholder="Minuets">
-    <button id="submit">Start the Workout!</button>
-    <p id="answer"></p> <br>
-    <p id="answer1"></p><br>
-    <p id="answer2"></p><br>
-    <p id="answer3"></p><br>
-    <div id="timerDisplay"></div>
+    <h2>Select an exercise and do as many Reps or Amount of time it says!</h2>
+</header>
+<main>
+    <button id="submit">Upper Body</button>
+    <button id="submit1">Lower Body</button>
+    <button id="submit2">Cardio</button>
+    <button id="submit3">Core</button>
+    <div id="data">
+        <div class="box">
+            <p id="answer" class="workouts"></p><p id="reps"class="amounts"></p>
+        </div>
+        <div class="box">
+            <p id="answer1"class="workouts"></p><p id="reps1"class="amounts"></p>
+        </div>
+        <div class="box">
+            <p id="answer2"class="workouts"></p><p id="reps2"class="amounts"></p>
+        </div>
+        <div class="box">
+            <p id="answer3"class="workouts"></p><p id="reps3"class="amounts"></p>
+        </div>
+    </div>
+</main>
+    <!-- <div id="timerDisplay"></div> -->
     <script type="module" src="./app.js"></script>
 </body>
 

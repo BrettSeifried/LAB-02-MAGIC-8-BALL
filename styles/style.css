@@ -1,3 +1,38 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: src='./ass    ';
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    margin: 10px;
+}
+
+.amounts {
+    text-align: right;
+}
+
 .p {
     display: none;
+}
+
+data {
+    display: grid;
+    grid-area: repeat (4 1fr);
+    margin: 50px;
+}
+
+.box {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
 }

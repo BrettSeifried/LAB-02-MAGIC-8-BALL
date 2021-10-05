@@ -5,8 +5,8 @@ describe('Example Test', ()=>{
     });
 
     describe('HTML elements', ()=>{   
-        it('contains the header', ()=>{
-            cy.get('#my-header').should('be.visible');
+        it('contains the data table', ()=>{
+            cy.get('#data').should('be.visible');
         });
     });
 });

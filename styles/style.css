@@ -45,6 +45,9 @@ data {
     border: 2px solid black;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
-    background-color: gray;  
+    grid-template-rows: 1fr;
+    background-color: gray;
+    transition: ease-in-out .5s;
+    transform: scale3d(1.3, 1.3, 1.3);
+    margin-top: 20px;
 }

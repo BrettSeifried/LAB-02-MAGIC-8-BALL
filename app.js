@@ -72,6 +72,9 @@ button3.addEventListener('click', () => {
 }); 
 exercise.style.display = 'block';
 
+
+// countdown timer to be defined by user at a later date
+
 // function timerDisplay (){
 //   let sec = result1
 //   let timer = setInterval(function(){

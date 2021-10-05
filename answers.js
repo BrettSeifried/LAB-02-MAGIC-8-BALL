@@ -41,6 +41,7 @@ export const repitions = [
     '15 reps / 30 seconds',
 ];
 
+// work on countdown timer defined by user later
 export function multi(num){
     return num * 60;
 }

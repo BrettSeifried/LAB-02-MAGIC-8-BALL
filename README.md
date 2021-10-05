@@ -1,5 +1,34 @@
 # Alchemy Bootstrap Template
 
+### Magic 8 ball
+* random number
+    * between 1 and 20
+    Math.floor(Math.random() * 20) + 1
+         1 - 20
+    Math.floor(Math.random() * 20) + 1
+        0 - 19
+    --or--
+    Math.ceil(Math.random() * 20)
+     1 - 20
+    * Ceiling always rounds up, floor always rounds down.
+
+* arrays
+const colors = ['red', 'white', 'blue']
+                0         1       2
+
+* random color from array
+    Math.floor(Math.Random()*3)
+        between 0 - 2
+
+* What happens if another item is added to the array?
+color.push('purple')
+Array will be ['red', 'white', 'blue', 'purple']
+
+* pull from array length, not a set number incase there is a push of new array item
+Math.floor(Math.random()*colors.length)
+
+colors[Math.floor(Math.random()*colors.length)]
+
 ## Making a plan
 
 (bolded steps are mandatory, unbolded are for more advanced projects)

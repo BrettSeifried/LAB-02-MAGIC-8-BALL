@@ -5,8 +5,8 @@ describe('Example Test', ()=>{
     });
 
     describe('HTML elements', ()=>{   
-        it('contains the body tag', ()=>{
-            cy.get('head').should('be.visible');
+        it('contains the header', ()=>{
+            cy.get('#my-header').should('be.visible');
         });
     });
 });

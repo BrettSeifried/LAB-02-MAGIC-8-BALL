@@ -8,7 +8,7 @@
   // update DOM to reflect the new state
 
 
-const colors = ['red', 'purple', 'blue']
+const colors = ['red', 'purple', 'blue'];
 
 import { answers } from './answers.js';
 

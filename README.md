@@ -42,8 +42,7 @@ colors[Math.floor(Math.random()*colors.length)]
 ## What events am I lisetning for? What happens when those events are fired?
 * Button click
     * Generate a random index
-    * Get the value of the answer
-    * Display the answer on the page
+    * Get the value of the answer        
 
 ## Making a plan
 

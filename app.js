@@ -72,6 +72,8 @@ button3.addEventListener('click', () => {
 }); 
 exercise.style.display = 'block';
 
+const audio = document.getElementById('audio');
+audio.volume = .4;
 
 // countdown timer to be defined by user at a later date
 
